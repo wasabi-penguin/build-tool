@@ -4,6 +4,7 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="XmlWriter.h" />
     <ClInclude Include="build_tool_pch.h" />
+    <ClInclude Include="Hierarchy.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="build-tool.cpp" />
