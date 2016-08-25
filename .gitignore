@@ -5,4 +5,7 @@
 *.pch
 *.VC.*
 .vs
+Debug
 ipch
+packages
+Release
