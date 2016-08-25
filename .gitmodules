@@ -1,0 +1,3 @@
+[submodule "vendor/gsl"]
+	path = vendor/gsl
+	url = git@github.com:wasabi-penguin/GSL.git
