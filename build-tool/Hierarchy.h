@@ -36,7 +36,7 @@ namespace bt
 
     ~Hierarchy() = default;
 
-    ChildRange<T> children(HeirarchyIterator i)
+    ChildRange<T> children(HeirarchyIterator<T> i)
     {
 
     }
