@@ -37,12 +37,10 @@ matrix:
   fast_finish: false     # set this flag to immediately finish build once one of the jobs fails.
 
 install:
-  - echo about to nuget
   - nuget restore
-  - echo after nuget
 
 cache:
-  - build-tool/packages -> **\packages.config
+  - packages -> **\packages.config
 
 #---------------------------------#
 #       build configuration       #
@@ -59,6 +57,3 @@ configuration:
 build:
   parallel: true                  # enable MSBuild parallel builds
   project: build-tool.sln         # path to Visual Studio solution or project
-
-  # MSBuild verbosity level
-  verbosity: normal
